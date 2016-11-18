@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <script src="script.js"></script> 
+    <head>
+        <meta charset="utf-8">
+        <title>Warehouse</title>
+    </head>
+    <body>
+   <!--     <table style="width:100%" id="myTable">
+            
+          <tr style="background: #2394dc">
+            <th>Oggetto</th>
+            <th>Quantità</th>
+          </tr>
+          
+             
+          <tr style= "background: #ccffff"> 
+            <td>Jill</td>
+            <td>Smith</td>
+          </tr>
+             
+             
+          <tr style= "background: #ccffff">
+            <td>Eve</td>
+            <td>Jackson</td>
+          </tr>
+        </table> 
+       -->
+        
+        
+        <table border='2' id='my_table' class='tabella' cellspacing='0' cellpadding='0'>
+            <thead><tr><th>Nome Oggetto </th><th>Quantità</th></tr></thead>
+            <tbody>
+
+            </tbody>
+        </table><br/>
+        
+        
+        
+        
+        <button type="button" id=ibutton onclick= "aggiungiItem()">Aggiungi Item</button>
+        <form  id="myP" method="post" style = "display: none" >
+            
+            <p>
+                Inserisci il nome dell'oggetto:
+                <input type="text" name="nomeOggetto" placeholder="Inserisci del testo">
+            </p>    
+            <p>
+                Inserisci la quantità:
+                <input type="number" name="quantita" >
+            </p>
+
+            
+              <button type="button" id=aggiungi onClick="aggiungiRiga('my_table')"> Aggiungi </button>
+              <button type="button" id=annulla onclick= "annulla()">Annulla</button>
+
+        </form>  
+        
+        
+        
+    </body>
+</html>
