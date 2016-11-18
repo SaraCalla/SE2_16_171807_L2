@@ -1,10 +1,10 @@
  function aggiungiItem(){
-   document.getElementById("myP").style.display = "block";   //contrario "none"
+   document.getElementById("myP").style.display = "block";  
 } 
 
 
 function annulla(){
-   document.getElementById("myP").style.display = "none";   //contrario "none"
+   document.getElementById("myP").style.display = "none";   
 } 
 
 
